@@ -1,10 +1,12 @@
 # Magic Mirror Hanzi
 
-This is a [`Magic Mirror²`](https://magicmirror.builders/) module that displays a Chinese character (hanzi), its pronunciation (in pinyin)
+This is a [`Magic Mirror²`](https://magicmirror.builders/) module that rotates between Chinese characters (hanzi), their pronunciation (in pinyin)
 and the translation in English.
+Every Chinese Mandarin language learner will appreciate this learning tool.
+
 Magic Mirror² is open source software for creating a powerful dashboard mostly for home use.
 
-`Magic Mirror Hanzi` is based on the Chinese HSK test vocabulary and you can configure up to 6 levels
+`Magic Mirror Hanzi` is based on the Chinese Mandarin HSK test vocabulary and you can configure up to 6 levels
 of difficulty.
 
 The interval of the rotation of the characters is also configurable.
@@ -17,7 +19,7 @@ This is how Magic Mirror Hanzi looks in my configuration:
 
 ## Installation
 
-1. Clone this repository into your MagicMirror `modules` folder.
+Clone this repository into your MagicMirror `modules` folder.
 
 Example:
 
@@ -26,7 +28,7 @@ cd /home/pi/MagicMirror/modules
 git clone https://github.com/tderflinger/MMM-Hanzi.git
 ```
 
-2. Edit your configuration file under `config/config.js` with the following configuration.
+Edit your configuration file under `config/config.js` with the following configuration.
 ```
 {
   module: "MMM-Hanzi",
