@@ -6,7 +6,7 @@ Every Chinese Mandarin language learner will appreciate this learning tool.
 
 Magic Mirror² is open source software for creating a powerful dashboard mostly for home use.
 
-`Magic Mirror² Hanzi` is based on the Chinese Mandarin HSK test vocabulary and you can configure up to 6 levels
+`Magic Mirror² Hanzi` is based on the [Chinese Mandarin HSK](https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi) test vocabulary and you can configure up to 6 levels
 of difficulty.
 
 The interval of the rotation of the characters is also configurable.
