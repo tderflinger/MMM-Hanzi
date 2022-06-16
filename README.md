@@ -46,6 +46,11 @@ Edit your configuration file under `config/config.js` with the following configu
 | `hskLevel`     | HSK difficulty level, number from 1 to 6 |
 | `interval`      | Rotation time of Hanzi in ms |
 
+## Testing
+
+I have tested the `Magic Mirror² Hanzi` module on an Raspberry Pi 3B with Raspberry OS
+and Node 16.15.0 and `Magic Mirror²` version 2.19.0.
+
 ## References
 
 Magic Mirror²: https://magicmirror.builders
