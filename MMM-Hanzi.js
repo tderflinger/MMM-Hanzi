@@ -24,11 +24,13 @@ Module.register("MMM-Hanzi",{
 		const hanziElement = document.createElement("p");
 		hanziElement.style.fontSize = "6rem";
             	hanziElement.style.marginBottom = "0";
+		hanziElement.style.color = "white";
 		hanziElement.innerHTML = currentHanzi.hanzi;
                 const pinyinElement = document.createElement("p");
                 pinyinElement.innerHTML = "<b>"+currentHanzi.pinyin+"</b>";
 		pinyinElement.style.fontSize = "1.5rem";
 		pinyinElement.style.margin = "0";
+		pinyinElement.style.color = "white";
 		const translationElement = document.createElement("p");
 		translationElement.style.fontSize = "1.5rem";
 		translationElement.style.padding = "0";
@@ -45,7 +47,7 @@ Module.register("MMM-Hanzi",{
 			this.sendSocketNotification("GET_HANZI", this.config);
 		}, this.config.interval);
 	},
-	socketNotificationReceived: function(notification, payload) {
+	socketNotificationReceived: function (notification, payload) {
 		switch (notification) {
 		case "UPDATE_HANZI":
                         currentHanzi = payload;
